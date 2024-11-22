@@ -15,3 +15,17 @@ function getHero () {
 
 hero = getHero();
 
+function signUp (name:string, email:string, isPaid:boolean){}
+
+let loginUser = (name: string, email: string, isPaid :boolean =true) => {}
+
+loginUser("himesh", "himesh@gmail.com")
+
+signUp("Niles", "nitesh@gmail.com", true);
+
+
+const addTwo = (num: number) => {
+  console.log(num + 2);
+}
+
+addTwo(2)
