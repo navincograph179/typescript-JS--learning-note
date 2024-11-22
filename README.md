@@ -8,27 +8,26 @@ npm install -g typescript
 
 ```bash
 tsc -v
-
+```
 # SECOND STEP
 ## install tsconfig.json file
-
 ```bash
 tsc --init
-
+```
 ## Inside the `tsconfig.json` file
 ### uncomment those code lines
-
 ```bash
- "outDir": "./dist", 
+ "outDir": "./dist"
+ ```
  ### for js file
 
  ```bash
   "rootDir": "./src"
+  ```
 ### for ts file
 
 ### also change the `target` into ES6
-
 ```bash
  "target": "ES6"
-
+```
 
