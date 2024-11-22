@@ -7,7 +7,7 @@ const greeting = (a: number, b:number) => {
 console.log(greeting(3, 5));
 
 // any 
-let hero;
+let hero: string;
 
 function getHero () {
   return "thor";
@@ -15,4 +15,3 @@ function getHero () {
 
 hero = getHero();
 
-export {}

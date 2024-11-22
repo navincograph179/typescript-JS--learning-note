@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log('Hello Typescript');
 const greeting = (a, b) => {
     return a + b;
