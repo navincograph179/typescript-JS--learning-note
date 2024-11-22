@@ -1,3 +1,3 @@
 # Globally instaliing TypeScript
 
-`` npm install -g typescript `` 
+``` npm install -g typescript ``` 
