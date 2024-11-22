@@ -3,7 +3,7 @@
 
 ```bash
 npm install -g typescript
-
+```
 ## To Check TypeScript Version
 
 ```bash
