@@ -1,3 +1,4 @@
 # Globally instaliing TypeScript
 
-`npm install -g typescript`
+```bash
+npm install -g typescript
