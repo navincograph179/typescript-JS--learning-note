@@ -11,3 +11,10 @@ createUser(newUser);
 const createCourse = () => {
     return {};
 };
+// Function that returns a User object
+const newUserObj = (user) => {
+    // You return a new object with the same shape as User
+    return { name: "", phoneNumber: 5, isActive: true };
+};
+// Calling the function with a valid User object
+newUserObj({ name: "John", phoneNumber: 5, isActive: true });
