@@ -29,3 +29,37 @@ const addTwo = (num: number) => {
 }
 
 addTwo(2)
+
+
+function getValue (num : number) {
+  if(num > 5) {
+      return true;
+  }
+  return "200 ok"
+}
+
+//in the case of arrow function
+
+const getHello= (s: string) : string => {
+  return "hello"
+}
+
+
+// in the case of Arrays
+
+const fruits = ["Apple", "Mango", "Banana", "Grapes", "Papaya"];
+
+fruits.map((fruit): string => {
+ return `i love: ${fruit}`
+});
+
+// void: it does not return any value
+function consoleError(errMsg: string): void {
+  console.log(errMsg)
+}
+
+// never: it never return the value.
+function errorHandler(errMsge: string): never {
+  throw new Error(errMsge)
+}
+

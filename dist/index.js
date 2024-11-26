@@ -18,3 +18,26 @@ const addTwo = (num) => {
     console.log(num + 2);
 };
 addTwo(2);
+function getValue(num) {
+    if (num > 5) {
+        return true;
+    }
+    return "200 ok";
+}
+//in the case of arrow function
+const getHello = (s) => {
+    return "hello";
+};
+// in the case of Arrays
+const fruits = ["Apple", "Mango", "Banana", "Grapes", "Papaya"];
+fruits.map((fruit) => {
+    return `i love: ${fruit}`;
+});
+// void: it does not return any value
+function consoleError(errMsg) {
+    console.log(errMsg);
+}
+// never: it never return the value.
+function errorHandler(errMsge) {
+    throw new Error(errMsge);
+}
