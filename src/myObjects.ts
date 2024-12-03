@@ -58,4 +58,27 @@ let myUser: User1  = {
 
 myUser.name = "Hero";
 
-console.log(`${myUser.name} and ${myUser._id}`)
+console.log(`${myUser.name} and ${myUser._id}`);
+
+
+type cardNumber  = {
+  cardnumber : string;
+}
+
+type cardDate = {
+  carddate : string;
+}
+
+type cardDetails = cardNumber & cardDate & {
+  cvv : number;
+}
+// two types will be merge and add another property.
+let creditCard : cardDetails = {
+  cardnumber : "12546",
+  carddate : "2024", 
+  cvv : 12345
+}
+
+console.log(creditCard.cardnumber);
+console.log(creditCard.carddate);
+console.log(creditCard.cvv);

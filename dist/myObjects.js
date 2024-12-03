@@ -27,3 +27,12 @@ let myUser = {
 };
 myUser.name = "Hero";
 console.log(`${myUser.name} and ${myUser._id}`);
+// two types will be merge and add another property.
+let creditCard = {
+    cardnumber: "12546",
+    carddate: "2024",
+    cvv: 12345
+};
+console.log(creditCard.cardnumber);
+console.log(creditCard.carddate);
+console.log(creditCard.cvv);
