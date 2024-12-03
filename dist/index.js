@@ -41,3 +41,10 @@ const getHello = (s) => {
 // function errorHandler(errMsge: string): never {
 //   throw new Error(errMsge)
 // }
+console.log("auto test");
+// src/index.ts
+const greetingAll = "Hello, World!";
+const element = document.getElementById("message");
+if (element) {
+    element.innerHTML = greetingAll; // Modify the DOM element
+}

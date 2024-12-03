@@ -33,3 +33,29 @@ const newUserObj = (user: User): User => {
 
 // Calling the function with a valid User object
 newUserObj({ name: "John", phoneNumber: 5, isActive: true });
+
+
+
+type User1 = {
+    readonly  _id : string;
+    name: string;
+    email : string;
+    telephone: number;
+    isOnline: boolean;
+    creditCard? : number;
+    //the question marks allow us, it does not required.
+}
+
+
+let myUser: User1  = {
+  _id : "1122334455",
+  name : "Harry",
+  email : "Harry@gmail.com",
+  telephone: 123456789,
+  isOnline: false,
+}
+
+
+myUser.name = "Hero";
+
+console.log(`${myUser.name} and ${myUser._id}`)

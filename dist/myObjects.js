@@ -18,3 +18,12 @@ const newUserObj = (user) => {
 };
 // Calling the function with a valid User object
 newUserObj({ name: "John", phoneNumber: 5, isActive: true });
+let myUser = {
+    _id: "1122334455",
+    name: "Harry",
+    email: "Harry@gmail.com",
+    telephone: 123456789,
+    isOnline: false,
+};
+myUser.name = "Hero";
+console.log(`${myUser.name} and ${myUser._id}`);

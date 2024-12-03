@@ -67,3 +67,13 @@ const getHello= (s: string) : string => {
 
 
 
+console.log("auto test");
+
+
+// src/index.ts
+const greetingAll: string = "Hello, World!";
+const element = document.getElementById("message");
+
+if (element) {
+  element.innerHTML = greetingAll;  // Modify the DOM element
+}
