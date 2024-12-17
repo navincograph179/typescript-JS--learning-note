@@ -71,7 +71,11 @@ console.log("auto test");
 
 
 // src/index.ts
-const greetingAll: string = "Hello, World!";
+const greetingAll: string = `<ul>
+<li>${getHello("HEllo")}</li>
+<li>${4+5}</li>
+<li>${7+7}</li>
+</ul>`;
 const element = document.getElementById("message");
 
 if (element) {

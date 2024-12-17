@@ -43,7 +43,11 @@ const getHello = (s) => {
 // }
 console.log("auto test");
 // src/index.ts
-const greetingAll = "Hello, World!";
+const greetingAll = `<ul>
+<li>${getHello("HEllo")}</li>
+<li>${4 + 5}</li>
+<li>${7 + 7}</li>
+</ul>`;
 const element = document.getElementById("message");
 if (element) {
     element.innerHTML = greetingAll; // Modify the DOM element
