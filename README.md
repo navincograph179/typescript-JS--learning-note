@@ -31,3 +31,21 @@ tsc --init
  "target": "ES6"
 ```
 
+
+## 20250109
+
+1. Write a program to add two numbers.
+```
+const sum = (x:number,y:number) =>{
+  console.log(x+y);
+}
+
+```
+
+sum(2, 4)
+
+2. How to catch Errors. & solve it?
+3. Ts Configuration File.
+
+
+

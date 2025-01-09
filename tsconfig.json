@@ -8,6 +8,7 @@
     "lib": ["DOM", "ES2015"], // Include DOM and ES2015 features
     "outDir": "./dist",       // Output compiled JavaScript to the 'dist' folder
     "rootDir": "./src",       // Set the root directory for TypeScript files
+    "noEmitOnError" : true,
   },
   "include": [
     "src/**/*.ts"  // Include all TypeScript files in the "src" folder

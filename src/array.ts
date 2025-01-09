@@ -34,3 +34,14 @@ const allUser : User0[] = []
 allUser.push({name: "Navin", isActive:false})
 
 console.table(allUser)
+
+
+
+try {
+  const ans = async() => {
+    const response = await console.log("testing");
+    return ans;
+  }
+} catch (error) {
+  console.log(error); 
+}
