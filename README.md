@@ -76,8 +76,8 @@ function greet(name: string): string {
     return `Hello, ${name}!`;
 }
 ```
-  - The name parameter must be a string.
-  - The function will return a string.
+  - The <ins>name</ins> parameter must be a string.
+  - The function will return a <ins>string</ins>.
 
  > [!IMPORTANT]
  > TypeScript compiler (tsc) that automatically recompiles your TypeScript files into JavaScript whenever you make   changes to your .ts files.
@@ -88,4 +88,4 @@ function greet(name: string): string {
  ```bash
  tsc -w
  ```
- 
+
