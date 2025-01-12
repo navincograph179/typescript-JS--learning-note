@@ -1,4 +1,4 @@
-![スクリーンショット 2025-01-13 001617](https://github.com/user-attachments/assets/0d7a7c3e-bb8d-4b74-bb41-810ada666878)# TypeScript Setup Guide
+# TypeScript Setup Guide
 
 ## First Steps
 
