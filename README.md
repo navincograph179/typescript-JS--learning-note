@@ -88,4 +88,5 @@ function greet(name: string): string {
  ```bash
  tsc -w
  ```
- 
+ ![Uploading スクリーンショット 2025-01-13 001617.png…]()
+
