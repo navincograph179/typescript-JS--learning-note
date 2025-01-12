@@ -1,51 +1,32 @@
-# FIRST STEP
-## Globally instaliing TypeScript
+# TypeScript Setup Guide
+
+## First Steps
+
+### 1. Globally Installing TypeScript
+To install TypeScript globally on your machine, run the following command:
 
 ```bash
 npm install -g typescript
 ```
-## To Check TypeScript Version
+
+### 2. Check TypeScript Version
+After installation, verify the installed version of TypeScript:
 
 ```bash
 tsc -v
 ```
-# SECOND STEP
-## install tsconfig.json file
+
+## Second Step: Setting Up tsconfig.json
+
+### 1. Initialize tsconfig.json
+To create a tsconfig.json file (TypeScript configuration file), run:
 ```bash
 tsc --init
 ```
-## Inside the `tsconfig.json` file
-### uncomment those code lines
+### 2. Configure tsconfig.json
+Open the tsconfig.json file and make the following changes:
+
+Uncomment the outDir line to specify the output directory for compiled JavaScript files:
 ```bash
- "outDir": "./dist"
- ```
- ### for js file
-
- ```bash
-  "rootDir": "./src"
-  ```
-### for ts file
-
-### also change the `target` into ES6
-```bash
- "target": "ES6"
+"outDir": "./dist"
 ```
-
-
-## 20250109
-
-1. Write a program to add two numbers.
-```
-const sum = (x:number,y:number) =>{
-  console.log(x+y);
-}
-
-```
-
-sum(2, 4)
-
-2. How to catch Errors. & solve it?
-3. Ts Configuration File.
-
-
-
