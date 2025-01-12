@@ -1,6 +1,6 @@
 const sum = (x:number,y:number) =>{
-  alert(x+y);
+  console.log(x+y);
   
 }
 
-sum(2, 4)
+sum(2, 4);
