@@ -26,8 +26,28 @@ tsc --init
 ### 2. Configure tsconfig.json
 - Open the tsconfig.json file and make the following changes:
 
-  - Uncomment the outDir line to specify the output directory for compiled JavaScript files:
+[x] Uncomment the outDir line to specify the output directory for compiled JavaScript files:
 ```bash
 "outDir": "./dist"
 ```
-  - Uncomment the rootDir line to specify the source directory for TypeScript files:
+[x] Uncomment the rootDir line to specify the source directory for TypeScript files:
+```bash
+"rootDir": "./src"
+```
+[x] Change the target to ES6 for modern JavaScript features:
+```bash
+"target": "ES6"
+```
+
+
+## Example: Adding Two Numbers
+### Here’s a simple TypeScript program to add two numbers:
+
+```typescript
+const sum = (x: number, y: number): void => {
+  console.log(x + y);
+};
+
+sum(2, 4); // Output: 6
+```
+
