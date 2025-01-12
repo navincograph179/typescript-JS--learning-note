@@ -24,9 +24,10 @@ To create a tsconfig.json file (TypeScript configuration file), run:
 tsc --init
 ```
 ### 2. Configure tsconfig.json
-Open the tsconfig.json file and make the following changes:
+- Open the tsconfig.json file and make the following changes:
 
-Uncomment the outDir line to specify the output directory for compiled JavaScript files:
+  - Uncomment the outDir line to specify the output directory for compiled JavaScript files:
 ```bash
 "outDir": "./dist"
 ```
+  - Uncomment the rootDir line to specify the source directory for TypeScript files:
