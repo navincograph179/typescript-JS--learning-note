@@ -1,4 +1,4 @@
-# TypeScript Setup Guide
+![スクリーンショット 2025-01-13 001617](https://github.com/user-attachments/assets/0d7a7c3e-bb8d-4b74-bb41-810ada666878)# TypeScript Setup Guide
 
 ## First Steps
 
@@ -88,5 +88,6 @@ function greet(name: string): string {
  ```bash
  tsc -w
  ```
- ![Uploading スクリーンショット 2025-01-13 001617.png…]()
+ ![スクリーンショット 2025-01-13 001617](https://github.com/user-attachments/assets/5caa757e-ca77-4665-a7c4-9de3ef5814f3)
+
 
