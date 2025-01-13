@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES6",          // Compiling TypeScript to ES6
+    "target": "ES2020",          // Compiling TypeScript to ES6
     "module": "ESNext",       // Use ES module system
     "strict": true,           // Enable strict type checking
     "skipLibCheck": true,     // Skip checking of library files
     "esModuleInterop": true,  // Allow compatibility with commonjs
-    "lib": ["DOM", "ES2015"], // Include DOM and ES2015 features
+    "lib": ["DOM", "ES2020"], // Include DOM and ES2015 features
     "outDir": "./dist",       // Output compiled JavaScript to the 'dist' folder
     "rootDir": "./src",       // Set the root directory for TypeScript files
     "noEmitOnError" : true,

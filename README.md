@@ -96,3 +96,11 @@ function greet(name: string): string {
 
 ## Boolean & Bigint in TypeScript
 
+>> Boolean: Represents true or false. Used for logical conditions.
+```typescript
+let isActive: boolean = true;
+```
+>> BigInt: Represents large integers (beyond number's limit). Use the n suffix or BigInt().
+```typescript
+let bigNumber: bigint = 123456789012345678901234567890n;
+``` 
