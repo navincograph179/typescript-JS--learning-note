@@ -5,6 +5,11 @@ if(isOnline) {
   console.log("You are Online");
 }
 
+let isEven = (a:number): boolean=>{
+    return true;
+}
+
+isEven(5)
 
 //BigInt
 
