@@ -104,3 +104,4 @@ let isActive: boolean = true;
 ```typescript
 let bigNumber: bigint = 123456789012345678901234567890n;
 ``` 
+   ### Why "n", Without the n, JavaScript would treat it as a regular number
